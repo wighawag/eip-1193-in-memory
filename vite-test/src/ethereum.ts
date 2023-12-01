@@ -7,7 +7,7 @@ export function setupEthereum(element: HTMLButtonElement) {
     const accounts = await provider.request({ method: "eth_accounts" });
     const account = accounts[0];
 
-    console.log(`from: ${account}`);
+    // console.log(`accounts`, accounts);
 
     await provider.request({
       method: "eth_sendTransaction",

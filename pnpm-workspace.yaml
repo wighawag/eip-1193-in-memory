@@ -1,0 +1,3 @@
+packages:
+  - 'eip-1193-in-memory'
+  - 'vite-test'

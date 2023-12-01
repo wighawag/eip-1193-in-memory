@@ -1,0 +1,12 @@
+{
+  "name": "eip-1193-in-memory-monorepo",
+  "version": "0.0.0",
+  "private": true,
+  "description": "An in-memory Ethereum provider",
+  "devDependencies": {
+    "set-defaults": "^0.0.2"
+  },
+  "scripts": {
+    "prepare": "set-defaults .vscode"
+  }
+}
